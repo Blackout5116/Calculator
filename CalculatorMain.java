@@ -54,7 +54,7 @@ public class CalculatorMain {
 		
 		while (addRuns) {
 			
-			System.out.println("Choose a different math function? (yes/no)");
+			System.out.println("Choose a different math function? (yes/no)"); //prints twice for some reason
 			userInput = scanner2.nextLine();
 			
 			if (userInput.toLowerCase().equals(yes)) {
